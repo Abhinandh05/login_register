@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Login and Register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="curved-shape"></div>
+        <div class="curved-shape2"></div>
+
+        <!-- Login Form -->
+        <div class="form-box login">
+            <h2 class="animation" style="--D:0">Login</h2>
+            <form action="#">
+                <div class="input-box animation" style="--D:1">
+                    <input type="text" name="username" required>
+                    <label for="username">Username:</label>
+                    <i class="bx bx-user"></i>
+                </div>
+                <div class="input-box animation" style="--D:2">
+                    <input type="password" required>
+                    <label for="password">Password:</label>
+                    <i class="bx bx-lock-alt"></i>
+                </div>
+                <div class="input-box animation" style="--D:3">
+                    <button class="btn" type="submit">Login</button>
+                </div>
+                <div class="log-link animation" style="--D:4">
+                    <p>Don't have an account? <a class="signUpLink" href="#">Sign up</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="info-content Login">
+            <h2 class="animation" style="--D:0" >WELCOME BACK</h2>
+            <p class="animation" style="--D:1">To keep connected with us please login with your personal info</p>
+        </div>
+
+        <!-- Register Form -->
+        <div class="form-box Register">
+            <h2 class="animation" style="--D:0">Register</h2>
+            <form action="#">
+                <div class="input-box animation" style="--D:1">
+                    <input type="text" id="reg-username" name="username" required>
+                    <label for="reg-username">Username:</label>
+                    <i class="bx bx-user"></i>
+                </div>
+                <div class="input-box animation" style="--D:2">
+                    <input type="email" id="reg-email" name="email" required>
+                    <label for="reg-email">Email:</label>
+                    <i class="bx bx-envelope"></i>
+                </div>
+                <div class="input-box animation" style="--D:3">
+                    <input type="password" id="reg-password" name="password" required>
+                    <label for="reg-password">Password:</label>
+                    <i class="bx bx-lock-alt"></i>
+                </div>
+                <div class="input-box animation" style="--D:4">
+                    <button class="btn" type="submit">Register</button>
+                </div>
+                <div class="regi-link animation" style="--D:5">
+                    <p>Have an account? <a class="signInLink" href="#">Sign In</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="info-content Register">
+            <h2 class="animation" style="--D:0" >Hello, Friend!</h2>
+            <p class="animation" style="--D:1">Enter your personal details and start your journey with us</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
